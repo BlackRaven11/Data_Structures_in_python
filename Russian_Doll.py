@@ -2,8 +2,9 @@ def open_russian_doll(doll):
   if doll == 1:
     print('doll = 1 --> All Dolls are opened!')
   else:
-    print('doll = ' , doll)
+    print('doll = ' , doll , ' opened!')
     open_russian_doll(doll-1)
-      
-open_russian_doll(4)
+    
+myDoll = int(input('Enter the number of Dolls: '))      
+open_russian_doll(myDoll)
         
